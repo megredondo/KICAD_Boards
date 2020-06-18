@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5272
+D AD5272 1024 Position, 1% Resistor Tolerance Error, I2C, 50TP Nonvolatile Potentiometer MSOP 10
+K Digipot POT potentiometer I2C Rheostat DAC MSOP 10
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
+$CMP AD5697R
+D AD5697R Dual 12Bit I2C DAC inluding internal reference, LFCSP-16
+K dac i2c 12 bit 
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5697R.pdf
+$ENDCMP
+#
+$CMP AD5697R_TSSOP
+D AD5697R Dual 12Bit I2C DAC inluding internal reference, TSSOP-16
+K dac i2c 12 bit 
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5697R.pdf
+$ENDCMP
+#
+$CMP ADA4896
+D AD4896 Dual Rail-to-Rail Output Amplifiers, High PSRR, MSOP-8
+K op amp rail to rail low noise distortion
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ada4896-2_4897-1_4897-2.pdf
+$ENDCMP
+#
+$CMP ADR3540
+D ADR3540 High Accuracy Voltage Reference, MSOP-8 
+K micropower voltage reference LDO low nosie msop
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR3525_3530_3533_3540_3550.pdf
+$ENDCMP
+#
+$CMP LTC1983
+D LTC1983 100mA Regulated Charge-Pump TSOT-23
+K Charge Pump Inverter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1983fc.pdf
+$ENDCMP
+#
+$CMP OP275
+D Dual Op amp (low power)
+K ampliop
+F analog-dev/op275.pdf
+$ENDCMP
+#
+#End Doc Library

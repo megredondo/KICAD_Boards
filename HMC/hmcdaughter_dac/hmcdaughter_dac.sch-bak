@@ -1,0 +1,1360 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "HMC346ALC3B_DACVctrl_Eval_Daughterboard"
+Date "2019-03-22"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L hmcdaughter_dac-rescue:LTC1983 U1
+U 1 1 5C8FD0FB
+P 4025 2800
+F 0 "U1" H 4025 3050 50  0000 L CNN
+F 1 "LTC1983" H 4025 2950 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 4025 2650 50  0001 L CNN
+F 3 "" H 4175 2950 50  0001 C CNN
+	1    4025 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C1
+U 1 1 5C90D007
+P 3475 3000
+F 0 "C1" H 3500 3100 50  0000 L CNN
+F 1 "1uF" H 3500 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3513 2850 50  0001 C CNN
+F 3 "" H 3475 3000 50  0001 C CNN
+	1    3475 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C3
+U 1 1 5C90D17F
+P 4425 2950
+F 0 "C3" H 4450 3050 50  0000 L CNN
+F 1 "10uF" H 4450 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 4463 2800 50  0001 C CNN
+F 3 "" H 4425 2950 50  0001 C CNN
+	1    4425 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C90D278
+P 4025 3250
+F 0 "#PWR01" H 4025 3000 50  0001 C CNN
+F 1 "GND" H 4025 3100 50  0000 C CNN
+F 2 "" H 4025 3250 50  0001 C CNN
+F 3 "" H 4025 3250 50  0001 C CNN
+	1    4025 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:L L2
+U 1 1 5C90DAC2
+P 4725 2800
+F 0 "L2" V 4675 2800 50  0000 C CNN
+F 1 "?nH" V 4800 2800 50  0000 C CNN
+F 2 "Inductors_SMD:L_0603" H 4725 2800 50  0001 C CNN
+F 3 "" H 4725 2800 50  0001 C CNN
+	1    4725 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C5
+U 1 1 5C90DB41
+P 4975 2950
+F 0 "C5" H 5000 3050 50  0000 L CNN
+F 1 "10uF" H 5000 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 5013 2800 50  0001 C CNN
+F 3 "" H 4975 2950 50  0001 C CNN
+	1    4975 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:L L1
+U 1 1 5C90DCBF
+P 4025 2050
+F 0 "L1" V 3975 2050 50  0000 C CNN
+F 1 "?nH" V 4100 2050 50  0000 C CNN
+F 2 "Inductors_SMD:L_0603" H 4025 2050 50  0001 C CNN
+F 3 "" H 4025 2050 50  0001 C CNN
+	1    4025 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C2
+U 1 1 5C90DD06
+P 4275 2050
+F 0 "C2" H 4300 2150 50  0000 L CNN
+F 1 "10uF" H 4300 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 4313 1900 50  0001 C CNN
+F 3 "" H 4275 2050 50  0001 C CNN
+	1    4275 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 5C90E058
+P 4025 1800
+F 0 "#PWR02" H 4025 1650 50  0001 C CNN
+F 1 "+5V" H 4025 1940 50  0000 C CNN
+F 2 "" H 4025 1800 50  0001 C CNN
+F 3 "" H 4025 1800 50  0001 C CNN
+	1    4025 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:CONN_01X04_MALE J1
+U 1 1 5C90EB71
+P 2000 4250
+F 0 "J1" H 2000 4625 50  0000 C CNN
+F 1 "CONN_01X04_MALE" H 2000 3850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 2000 4550 50  0001 C CNN
+F 3 "" H 2000 4550 50  0001 C CNN
+	1    2000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP12
+U 1 1 5C90F194
+P 9825 2250
+F 0 "TP12" H 9825 2550 50  0000 C BNN
+F 1 "V2" H 9825 2500 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9825 2250 50  0001 C CNN
+F 3 "" H 9825 2250 50  0001 C CNN
+	1    9825 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP11
+U 1 1 5C90F66E
+P 9700 4500
+F 0 "TP11" H 9700 4800 50  0000 C BNN
+F 1 "V1" H 9700 4750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9700 4500 50  0001 C CNN
+F 3 "" H 9700 4500 50  0001 C CNN
+	1    9700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:ADA4896 U3
+U 1 1 5C911D51
+P 9050 4500
+F 0 "U3" H 9050 4650 50  0000 L CNN
+F 1 "ADA4896" H 9050 4350 50  0000 L CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 8950 4550 50  0001 C CNN
+F 3 "" H 9050 4650 50  0001 C CNN
+	1    9050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:ADA4896 U3
+U 2 1 5C911DD2
+P 9175 2250
+F 0 "U3" H 9175 2400 50  0000 L CNN
+F 1 "ADA4896" H 9175 2100 50  0000 L CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 9075 2300 50  0001 C CNN
+F 3 "" H 9175 2400 50  0001 C CNN
+	2    9175 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR03
+U 1 1 5C9160B9
+P 5225 2800
+F 0 "#PWR03" H 5225 2650 50  0001 C CNN
+F 1 "VSS" H 5225 2950 50  0000 C CNN
+F 2 "" H 5225 2800 50  0001 C CNN
+F 3 "" H 5225 2800 50  0001 C CNN
+	1    5225 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR04
+U 1 1 5C9163B3
+P 8950 4850
+F 0 "#PWR04" H 8950 4700 50  0001 C CNN
+F 1 "VSS" H 8950 5000 50  0000 C CNN
+F 2 "" H 8950 4850 50  0001 C CNN
+F 3 "" H 8950 4850 50  0001 C CNN
+	1    8950 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 5C9163FD
+P 8950 3700
+F 0 "#PWR05" H 8950 3550 50  0001 C CNN
+F 1 "+5V" H 8950 3840 50  0000 C CNN
+F 2 "" H 8950 3700 50  0001 C CNN
+F 3 "" H 8950 3700 50  0001 C CNN
+	1    8950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:R R4
+U 1 1 5C916C09
+P 9300 2650
+F 0 "R4" V 9380 2650 50  0000 C CNN
+F 1 "20k" V 9300 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 9230 2650 50  0001 C CNN
+F 3 "" H 9300 2650 50  0001 C CNN
+	1    9300 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VSS #PWR06
+U 1 1 5C917D83
+P 9400 4150
+F 0 "#PWR06" H 9400 4000 50  0001 C CNN
+F 1 "VSS" H 9400 4300 50  0000 C CNN
+F 2 "" H 9400 4150 50  0001 C CNN
+F 3 "" H 9400 4150 50  0001 C CNN
+	1    9400 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C10
+U 1 1 5C917DD3
+P 9400 3950
+F 0 "C10" H 9425 4050 50  0000 L CNN
+F 1 "100nF" H 9425 3850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9438 3800 50  0001 C CNN
+F 3 "" H 9400 3950 50  0001 C CNN
+	1    9400 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:L L4
+U 1 1 5C919140
+P 8950 3950
+F 0 "L4" V 8900 3950 50  0000 C CNN
+F 1 "?nH" V 9025 3950 50  0000 C CNN
+F 2 "Inductors_SMD:L_0603" H 8950 3950 50  0001 C CNN
+F 3 "" H 8950 3950 50  0001 C CNN
+	1    8950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 5C92C4AB
+P 3025 3550
+F 0 "#PWR07" H 3025 3400 50  0001 C CNN
+F 1 "+5V" H 3025 3690 50  0000 C CNN
+F 2 "" H 3025 3550 50  0001 C CNN
+F 3 "" H 3025 3550 50  0001 C CNN
+	1    3025 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5C92CDC6
+P 2550 4150
+F 0 "#PWR08" H 2550 3900 50  0001 C CNN
+F 1 "GND" H 2550 4000 50  0000 C CNN
+F 2 "" H 2550 4150 50  0001 C CNN
+F 3 "" H 2550 4150 50  0001 C CNN
+	1    2550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5C9304C7
+P 4275 2300
+F 0 "#PWR09" H 4275 2050 50  0001 C CNN
+F 1 "GND" H 4275 2150 50  0000 C CNN
+F 2 "" H 4275 2300 50  0001 C CNN
+F 3 "" H 4275 2300 50  0001 C CNN
+	1    4275 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C4
+U 1 1 5C931492
+P 4575 2050
+F 0 "C4" H 4600 2150 50  0000 L CNN
+F 1 "100nF" H 4600 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4613 1900 50  0001 C CNN
+F 3 "" H 4575 2050 50  0001 C CNN
+	1    4575 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP2
+U 1 1 5C935855
+P 3125 4150
+F 0 "TP2" H 3125 4450 50  0000 C BNN
+F 1 "GND" H 3125 4400 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 3125 4150 50  0001 C CNN
+F 3 "" H 3125 4150 50  0001 C CNN
+	1    3125 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP3
+U 1 1 5C935EFA
+P 3325 4150
+F 0 "TP3" H 3325 4450 50  0000 C BNN
+F 1 "GND" H 3325 4400 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 3325 4150 50  0001 C CNN
+F 3 "" H 3325 4150 50  0001 C CNN
+	1    3325 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:R R1
+U 1 1 5C916AEE
+P 8525 4600
+F 0 "R1" V 8605 4600 50  0000 C CNN
+F 1 "10k" V 8525 4600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8455 4600 50  0001 C CNN
+F 3 "" H 8525 4600 50  0001 C CNN
+	1    8525 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5C93CBF9
+P 8625 4400
+F 0 "#PWR010" H 8625 4150 50  0001 C CNN
+F 1 "GND" H 8625 4250 50  0000 C CNN
+F 2 "" H 8625 4400 50  0001 C CNN
+F 3 "" H 8625 4400 50  0001 C CNN
+	1    8625 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5C93CCDF
+P 8800 2150
+F 0 "#PWR011" H 8800 1900 50  0001 C CNN
+F 1 "GND" H 8800 2000 50  0000 C CNN
+F 2 "" H 8800 2150 50  0001 C CNN
+F 3 "" H 8800 2150 50  0001 C CNN
+	1    8800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:R R2
+U 1 1 5C93D018
+P 8650 2350
+F 0 "R2" V 8730 2350 50  0000 C CNN
+F 1 "10k" V 8650 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8580 2350 50  0001 C CNN
+F 3 "" H 8650 2350 50  0001 C CNN
+	1    8650 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:R R3
+U 1 1 5C93D331
+P 9025 5125
+F 0 "R3" V 9105 5125 50  0000 C CNN
+F 1 "20k" V 9025 5125 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 8955 5125 50  0001 C CNN
+F 3 "" H 9025 5125 50  0001 C CNN
+	1    9025 5125
+	0    1    1    0   
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP13
+U 1 1 5C922CA8
+P 9950 3400
+F 0 "TP13" H 9950 3700 50  0000 C BNN
+F 1 "I" H 9950 3650 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9950 3400 50  0001 C CNN
+F 3 "" H 9950 3400 50  0001 C CNN
+	1    9950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP8
+U 1 1 5C94D5A3
+P 7175 3850
+F 0 "TP8" H 7175 4150 50  0000 C BNN
+F 1 "Vref" H 7175 4100 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7175 3850 50  0001 C CNN
+F 3 "" H 7175 3850 50  0001 C CNN
+	1    7175 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP1
+U 1 1 5C94DB5D
+P 2350 3700
+F 0 "TP1" H 2350 4000 50  0000 C BNN
+F 1 "5Vin" H 2350 3950 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2350 3700 50  0001 C CNN
+F 3 "" H 2350 3700 50  0001 C CNN
+	1    2350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP5
+U 1 1 5C94DD25
+P 3725 4250
+F 0 "TP5" H 3725 4550 50  0000 C BNN
+F 1 "SCL" H 3725 4500 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3725 4250 50  0001 C CNN
+F 3 "" H 3725 4250 50  0001 C CNN
+	1    3725 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP6
+U 1 1 5C94DE88
+P 3900 4250
+F 0 "TP6" H 3900 4550 50  0000 C BNN
+F 1 "SDA" H 3900 4500 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 4250 50  0001 C CNN
+F 3 "" H 3900 4250 50  0001 C CNN
+	1    3900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5C94E72D
+P 6250 5000
+F 0 "#PWR012" H 6250 4750 50  0001 C CNN
+F 1 "GND" H 6250 4850 50  0000 C CNN
+F 2 "" H 6250 5000 50  0001 C CNN
+F 3 "" H 6250 5000 50  0001 C CNN
+	1    6250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5C94E77B
+P 6650 3650
+F 0 "#PWR013" H 6650 3400 50  0001 C CNN
+F 1 "GND" H 6650 3500 50  0000 C CNN
+F 2 "" H 6650 3650 50  0001 C CNN
+F 3 "" H 6650 3650 50  0001 C CNN
+	1    6650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR014
+U 1 1 5C94E817
+P 6300 3175
+F 0 "#PWR014" H 6300 3025 50  0001 C CNN
+F 1 "+5V" H 6300 3315 50  0000 C CNN
+F 2 "" H 6300 3175 50  0001 C CNN
+F 3 "" H 6300 3175 50  0001 C CNN
+	1    6300 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C6
+U 1 1 5C94FE38
+P 6525 3425
+F 0 "C6" H 6550 3525 50  0000 L CNN
+F 1 "1uF" H 6550 3325 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6563 3275 50  0001 C CNN
+F 3 "" H 6525 3425 50  0001 C CNN
+	1    6525 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C7
+U 1 1 5C94FEC5
+P 6775 3425
+F 0 "C7" H 6800 3525 50  0000 L CNN
+F 1 "100nF" H 6800 3325 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6813 3275 50  0001 C CNN
+F 3 "" H 6775 3425 50  0001 C CNN
+	1    6775 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:L L3
+U 1 1 5C950004
+P 6300 3425
+F 0 "L3" V 6250 3425 50  0000 C CNN
+F 1 "?nH" V 6375 3425 50  0000 C CNN
+F 2 "Inductors_SMD:L_0603" H 6300 3425 50  0001 C CNN
+F 3 "" H 6300 3425 50  0001 C CNN
+	1    6300 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP7
+U 1 1 5C952E47
+P 5525 2800
+F 0 "TP7" H 5525 3100 50  0000 C BNN
+F 1 "VSS" H 5525 3050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5525 2800 50  0001 C CNN
+F 3 "" H 5525 2800 50  0001 C CNN
+	1    5525 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP9
+U 1 1 5C9534B1
+P 7300 4150
+F 0 "TP9" H 7300 4450 50  0000 C BNN
+F 1 "VA" H 7300 4400 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7300 4150 50  0001 C CNN
+F 3 "" H 7300 4150 50  0001 C CNN
+	1    7300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP10
+U 1 1 5C95350C
+P 7450 4150
+F 0 "TP10" H 7450 4450 50  0000 C BNN
+F 1 "VB" H 7450 4400 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7450 4150 50  0001 C CNN
+F 3 "" H 7450 4150 50  0001 C CNN
+	1    7450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP4
+U 1 1 5C954065
+P 3550 4150
+F 0 "TP4" H 3550 4450 50  0000 C BNN
+F 1 "GND" H 3550 4400 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 4150 50  0001 C CNN
+F 3 "" H 3550 4150 50  0001 C CNN
+	1    3550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:AD5697R_TSSOP U2
+U 1 1 5C95D480
+P 6300 4375
+F 0 "U2" H 5700 4825 50  0000 L CNN
+F 1 "AD5697R_TSSOP" H 6550 4825 50  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-16-1EP_4.4x5mm_Pitch0.65mm" H 6250 4325 50  0001 C CNN
+F 3 "" H 5450 4775 50  0001 C CNN
+	1    6300 4375
+	1    0    0    -1  
+$EndComp
+Text Label 3900 4275 0    60   ~ 0
+SDA
+Text Label 3725 4450 0    60   ~ 0
+SCL
+Text Label 7525 4225 0    60   ~ 0
+VA
+Text Label 7700 4400 0    60   ~ 0
+VB
+$Comp
+L hmcdaughter_dac-rescue:L L5
+U 1 1 5C992B88
+P 2550 3700
+F 0 "L5" V 2500 3700 50  0000 C CNN
+F 1 "?nH" V 2625 3700 50  0000 C CNN
+F 2 "Inductors_SMD:L_0603" H 2550 3700 50  0001 C CNN
+F 3 "" H 2550 3700 50  0001 C CNN
+	1    2550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C11
+U 1 1 5C992C1F
+P 2825 3725
+F 0 "C11" H 2850 3825 50  0000 L CNN
+F 1 "100nF" H 2850 3625 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2863 3575 50  0001 C CNN
+F 3 "" H 2825 3725 50  0001 C CNN
+	1    2825 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:TEST TP14
+U 1 1 5C993977
+P 3250 3550
+F 0 "TP14" H 3250 3850 50  0000 C BNN
+F 1 "5V" H 3250 3800 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3250 3550 50  0001 C CNN
+F 3 "" H 3250 3550 50  0001 C CNN
+	1    3250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C8
+U 1 1 5C9979C2
+P 8850 2925
+F 0 "C8" H 8875 3025 50  0000 L CNN
+F 1 "22uF" H 8875 2825 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 8888 2775 50  0001 C CNN
+F 3 "" H 8850 2925 50  0001 C CNN
+	1    8850 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C9
+U 1 1 5C997B37
+P 8725 5375
+F 0 "C9" H 8750 5475 50  0000 L CNN
+F 1 "22uF" H 8750 5275 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210" H 8763 5225 50  0001 C CNN
+F 3 "" H 8725 5375 50  0001 C CNN
+	1    8725 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5C997CC2
+P 8725 5600
+F 0 "#PWR015" H 8725 5350 50  0001 C CNN
+F 1 "GND" H 8725 5450 50  0000 C CNN
+F 2 "" H 8725 5600 50  0001 C CNN
+F 3 "" H 8725 5600 50  0001 C CNN
+	1    8725 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5C998204
+P 8850 3125
+F 0 "#PWR016" H 8850 2875 50  0001 C CNN
+F 1 "GND" H 8850 2975 50  0000 C CNN
+F 2 "" H 8850 3125 50  0001 C CNN
+F 3 "" H 8850 3125 50  0001 C CNN
+	1    8850 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C12
+U 1 1 5C9983EC
+P 9275 3000
+F 0 "C12" H 9300 3100 50  0000 L CNN
+F 1 "10nF" H 9300 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9313 2850 50  0001 C CNN
+F 3 "" H 9275 3000 50  0001 C CNN
+	1    9275 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:C C13
+U 1 1 5C9984AB
+P 9150 5475
+F 0 "C13" H 9175 5575 50  0000 L CNN
+F 1 "10nF" H 9175 5375 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9188 5325 50  0001 C CNN
+F 3 "" H 9150 5475 50  0001 C CNN
+	1    9150 5475
+	0    1    1    0   
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:R R7
+U 1 1 5C999001
+P 9500 5300
+F 0 "R7" V 9580 5300 50  0000 C CNN
+F 1 "100" V 9500 5300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 9430 5300 50  0001 C CNN
+F 3 "" H 9500 5300 50  0001 C CNN
+	1    9500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:R R6
+U 1 1 5C999206
+P 9575 2825
+F 0 "R6" V 9655 2825 50  0000 C CNN
+F 1 "100" V 9575 2825 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 9505 2825 50  0001 C CNN
+F 3 "" H 9575 2825 50  0001 C CNN
+	1    9575 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:LED D1
+U 1 1 5C99E4E6
+P 2875 2225
+F 0 "D1" H 2875 2325 50  0000 C CNN
+F 1 "LED" H 2875 2125 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 2875 2225 50  0001 C CNN
+F 3 "" H 2875 2225 50  0001 C CNN
+	1    2875 2225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:R R5
+U 1 1 5C99E991
+P 2875 1850
+F 0 "R5" V 2955 1850 50  0000 C CNN
+F 1 "5k" V 2875 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2805 1850 50  0001 C CNN
+F 3 "" H 2875 1850 50  0001 C CNN
+	1    2875 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5C99F34D
+P 2875 2450
+F 0 "#PWR017" H 2875 2200 50  0001 C CNN
+F 1 "GND" H 2875 2300 50  0000 C CNN
+F 2 "" H 2875 2450 50  0001 C CNN
+F 3 "" H 2875 2450 50  0001 C CNN
+	1    2875 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR018
+U 1 1 5C99F695
+P 2875 1600
+F 0 "#PWR018" H 2875 1450 50  0001 C CNN
+F 1 "+5V" H 2875 1740 50  0000 C CNN
+F 2 "" H 2875 1600 50  0001 C CNN
+F 3 "" H 2875 1600 50  0001 C CNN
+	1    2875 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:R R8
+U 1 1 5C9A1552
+P 4575 3750
+F 0 "R8" V 4655 3750 50  0000 C CNN
+F 1 "0" V 4575 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4505 3750 50  0001 C CNN
+F 3 "" H 4575 3750 50  0001 C CNN
+	1    4575 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:R R9
+U 1 1 5C9A167C
+P 4575 4100
+F 0 "R9" V 4655 4100 50  0000 C CNN
+F 1 "0" V 4575 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4505 4100 50  0001 C CNN
+F 3 "" H 4575 4100 50  0001 C CNN
+	1    4575 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:R R11
+U 1 1 5C9A1719
+P 4775 4100
+F 0 "R11" V 4855 4100 50  0000 C CNN
+F 1 "0" V 4775 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4705 4100 50  0001 C CNN
+F 3 "" H 4775 4100 50  0001 C CNN
+	1    4775 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5C9A1B35
+P 4500 4275
+F 0 "#PWR019" H 4500 4025 50  0001 C CNN
+F 1 "GND" H 4500 4125 50  0000 C CNN
+F 2 "" H 4500 4275 50  0001 C CNN
+F 3 "" H 4500 4275 50  0001 C CNN
+	1    4500 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR020
+U 1 1 5C9A1BAB
+P 4500 3600
+F 0 "#PWR020" H 4500 3450 50  0001 C CNN
+F 1 "+5V" H 4500 3740 50  0000 C CNN
+F 2 "" H 4500 3600 50  0001 C CNN
+F 3 "" H 4500 3600 50  0001 C CNN
+	1    4500 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 3150 3725 3150
+Wire Wire Line
+	3725 3150 3725 3000
+Wire Wire Line
+	3475 2850 3725 2850
+Wire Wire Line
+	3725 2850 3725 2900
+Wire Wire Line
+	8950 4850 8950 4800
+Wire Wire Line
+	8950 3700 8950 3800
+Wire Wire Line
+	8950 4100 8950 4150
+Wire Wire Line
+	9400 4150 9400 4100
+Wire Wire Line
+	9400 3800 9100 3800
+Wire Wire Line
+	9100 3800 9100 4150
+Wire Wire Line
+	9100 4150 8950 4150
+Connection ~ 8950 4150
+Wire Wire Line
+	9350 4500 9575 4500
+Wire Wire Line
+	2550 3850 2550 3950
+Wire Wire Line
+	2550 3950 2350 3950
+Wire Wire Line
+	4025 1800 4025 1900
+Wire Wire Line
+	4025 2200 4025 2250
+Wire Wire Line
+	4125 1900 4275 1900
+Wire Wire Line
+	4125 1900 4125 2250
+Wire Wire Line
+	4125 2250 4025 2250
+Connection ~ 4025 2250
+Wire Wire Line
+	3725 2750 3725 2400
+Wire Wire Line
+	3725 2400 4025 2400
+Connection ~ 4025 2400
+Connection ~ 4275 1900
+Wire Wire Line
+	4275 2200 4275 2250
+Wire Wire Line
+	4575 2200 4575 2250
+Wire Wire Line
+	4575 2250 4275 2250
+Connection ~ 4275 2250
+Wire Wire Line
+	4025 3150 4025 3200
+Wire Wire Line
+	4425 3100 4425 3200
+Wire Wire Line
+	4025 3200 4425 3200
+Connection ~ 4025 3200
+Wire Wire Line
+	4975 3200 4975 3100
+Connection ~ 4425 3200
+Wire Wire Line
+	4325 2800 4425 2800
+Connection ~ 4425 2800
+Wire Wire Line
+	4875 2800 4975 2800
+Connection ~ 4975 2800
+Connection ~ 3125 4150
+Wire Wire Line
+	8950 4200 9000 4200
+Wire Wire Line
+	9000 4725 9000 4800
+Wire Wire Line
+	9000 4800 8950 4800
+Wire Wire Line
+	9000 4200 9000 4275
+Wire Wire Line
+	8625 4400 8750 4400
+Wire Wire Line
+	8800 2150 8875 2150
+Wire Wire Line
+	9450 2650 9575 2650
+Wire Wire Line
+	9600 2650 9600 2250
+Wire Wire Line
+	9175 5125 9500 5125
+Wire Wire Line
+	9575 5125 9575 4500
+Connection ~ 9575 4500
+Wire Wire Line
+	8800 2350 8850 2350
+Wire Wire Line
+	9150 2650 9125 2650
+Wire Wire Line
+	8850 2350 8850 2650
+Connection ~ 8850 2350
+Wire Wire Line
+	8375 4400 8375 4600
+Wire Wire Line
+	8675 4600 8725 4600
+Wire Wire Line
+	8725 5125 8875 5125
+Wire Wire Line
+	8725 4600 8725 5125
+Connection ~ 8725 4600
+Wire Wire Line
+	7675 1750 8350 1750
+Wire Wire Line
+	4375 4625 5600 4625
+Wire Wire Line
+	2300 4550 3725 4550
+Wire Wire Line
+	5575 4550 5575 4525
+Wire Wire Line
+	5575 4525 5600 4525
+Wire Wire Line
+	7000 4075 7175 4075
+Wire Wire Line
+	7175 4075 7175 3850
+Wire Wire Line
+	2350 3700 2350 3950
+Connection ~ 2350 3950
+Wire Wire Line
+	3725 4250 3725 4550
+Connection ~ 3725 4550
+Wire Wire Line
+	3900 4250 3900 4350
+Connection ~ 3900 4350
+Wire Wire Line
+	6200 5000 6250 5000
+Wire Wire Line
+	6300 5000 6300 4875
+Wire Wire Line
+	6200 4875 6200 5000
+Connection ~ 6250 5000
+Wire Wire Line
+	6300 3175 6300 3275
+Wire Wire Line
+	6425 3625 6425 3275
+Wire Wire Line
+	6425 3275 6525 3275
+Connection ~ 6525 3275
+Wire Wire Line
+	6525 3575 6525 3625
+Wire Wire Line
+	6525 3625 6650 3625
+Wire Wire Line
+	6650 3625 6650 3650
+Wire Wire Line
+	6775 3625 6775 3575
+Connection ~ 6650 3625
+Wire Wire Line
+	6300 3575 6300 3625
+Wire Wire Line
+	6450 3750 6450 3875
+Wire Wire Line
+	6200 3750 6300 3750
+Connection ~ 6300 3750
+Wire Wire Line
+	6100 3625 6300 3625
+Connection ~ 6300 3625
+Wire Wire Line
+	6100 3875 6100 3625
+Wire Wire Line
+	6200 3875 6200 3750
+Wire Wire Line
+	7000 4225 7300 4225
+Wire Wire Line
+	7675 4225 7675 1750
+Wire Wire Line
+	7000 4400 7450 4400
+Connection ~ 5225 2800
+Wire Wire Line
+	7300 4150 7300 4225
+Connection ~ 7300 4225
+Wire Wire Line
+	7450 4150 7450 4400
+Connection ~ 7450 4400
+Connection ~ 3325 4150
+Connection ~ 2550 4150
+Wire Wire Line
+	2825 3875 2825 4150
+Connection ~ 2825 4150
+Wire Wire Line
+	2550 3550 2825 3550
+Wire Wire Line
+	2825 3550 2825 3575
+Connection ~ 2825 3550
+Connection ~ 3025 3550
+Wire Wire Line
+	8725 5600 8725 5525
+Connection ~ 8725 5125
+Wire Wire Line
+	8875 5125 8875 5475
+Wire Wire Line
+	8875 5475 9000 5475
+Wire Wire Line
+	9300 5475 9500 5475
+Wire Wire Line
+	9500 5475 9500 5450
+Wire Wire Line
+	9500 5150 9500 5125
+Connection ~ 9500 5125
+Wire Wire Line
+	8850 3125 8850 3075
+Connection ~ 8850 2650
+Wire Wire Line
+	9125 3000 9125 2650
+Connection ~ 9125 2650
+Wire Wire Line
+	9425 3000 9575 3000
+Wire Wire Line
+	9575 3000 9575 2975
+Wire Wire Line
+	9575 2675 9575 2650
+Connection ~ 9575 2650
+Wire Wire Line
+	2875 2450 2875 2375
+Wire Wire Line
+	2875 2075 2875 2000
+Wire Wire Line
+	2875 1700 2875 1600
+Wire Wire Line
+	2300 4350 3900 4350
+Wire Wire Line
+	4375 4350 4375 4625
+Wire Wire Line
+	4575 4250 4575 4275
+Wire Wire Line
+	5150 4275 4975 4275
+Wire Wire Line
+	4775 4275 4775 4250
+Wire Wire Line
+	4575 3950 4575 3925
+Wire Wire Line
+	4775 3950 4775 3925
+$Comp
+L hmcdaughter_dac-rescue:R R12
+U 1 1 5C9A69B7
+P 4975 3750
+F 0 "R12" V 5055 3750 50  0000 C CNN
+F 1 "0" V 4975 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4905 3750 50  0001 C CNN
+F 3 "" H 4975 3750 50  0001 C CNN
+	1    4975 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L hmcdaughter_dac-rescue:R R13
+U 1 1 5C9A6A54
+P 4975 4100
+F 0 "R13" V 5055 4100 50  0000 C CNN
+F 1 "0" V 4975 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4905 4100 50  0001 C CNN
+F 3 "" H 4975 4100 50  0001 C CNN
+	1    4975 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4975 3900 4975 3925
+Wire Wire Line
+	4975 4275 4975 4250
+Connection ~ 4775 4275
+Connection ~ 4575 4275
+Wire Wire Line
+	5600 4400 4675 4400
+Wire Wire Line
+	4675 4400 4675 3925
+Wire Wire Line
+	4675 3925 4575 3925
+Connection ~ 4575 3925
+Wire Wire Line
+	5600 4300 4850 4300
+Wire Wire Line
+	4850 4300 4850 3925
+Wire Wire Line
+	4850 3925 4775 3925
+Connection ~ 4775 3925
+Wire Wire Line
+	5600 4150 5125 4150
+Wire Wire Line
+	5125 4150 5125 3925
+Wire Wire Line
+	5125 3925 4975 3925
+Connection ~ 4975 3925
+Wire Wire Line
+	5150 4050 5150 4275
+Connection ~ 4975 4275
+Wire Wire Line
+	5150 4050 5600 4050
+$Comp
+L hmcdaughter_dac-rescue:R R10
+U 1 1 5C9A15E9
+P 4775 3750
+F 0 "R10" V 4855 3750 50  0000 C CNN
+F 1 "0" V 4775 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4705 3750 50  0001 C CNN
+F 3 "" H 4775 3750 50  0001 C CNN
+	1    4775 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3600 4575 3600
+Connection ~ 4775 3600
+Connection ~ 4575 3600
+Text Notes 5000 1850 0    60   ~ 0
+- Stecker nicht oberhalb von SMA => z.B. Oben (Platine nur von Lötpins gehalten?)\nAlternativ Surface Mount Stecker (größerer Footprint)\n- OPAmp Entkopplung nicht nur von Vdd zu Vss, jedes Rail getrennt\n- OPAmp Filter nicht im Feedback Pfad weil DAC referenz Stabil\n=> Bspw. 100nF und kleiner am Output für Schalttransiente (Kapazitive Last?) \n- Anderer (kleinerer) Pumpkondensator für charge Pump => Weniger Effizienz, geringerer Rippel\n- Mehr/andere Entkoppelkondensatoren am Charge Pump Output\n- Generell diverse unbestückteFootprints um Permutieren zu können\n- 10uF Typen müssen nicht 50V fest sein(1210). X7R usw. Kapazitätsverlust erst bei höheren Spannungen.\n!!!!!!! OPAmp Input Bias Widerstände (R1||R2 an Noniv. Input, sonst 0,2 - 4V anstatt 0 - 4V).\n\n(HMC auf Rückseite?)
+Wire Wire Line
+	8950 4150 8950 4200
+Wire Wire Line
+	4025 2250 4025 2400
+Wire Wire Line
+	4025 2400 4025 2450
+Wire Wire Line
+	4275 1900 4575 1900
+Wire Wire Line
+	4275 2250 4275 2300
+Wire Wire Line
+	4025 3200 4025 3250
+Wire Wire Line
+	4425 3200 4975 3200
+Wire Wire Line
+	4425 2800 4575 2800
+Wire Wire Line
+	4975 2800 5225 2800
+Wire Wire Line
+	3125 4150 3325 4150
+Wire Wire Line
+	9575 4500 9700 4500
+Wire Wire Line
+	8850 2350 8875 2350
+Wire Wire Line
+	8725 4600 8750 4600
+Wire Wire Line
+	2350 3950 2300 3950
+Wire Wire Line
+	3725 4550 5575 4550
+Wire Wire Line
+	3900 4350 4375 4350
+Wire Wire Line
+	6250 5000 6300 5000
+Wire Wire Line
+	6525 3275 6775 3275
+Wire Wire Line
+	6650 3625 6775 3625
+Wire Wire Line
+	6300 3750 6300 3875
+Wire Wire Line
+	6300 3750 6450 3750
+Wire Wire Line
+	6300 3625 6300 3750
+Wire Wire Line
+	6300 3625 6425 3625
+Wire Wire Line
+	5225 2800 5525 2800
+Wire Wire Line
+	7300 4225 7675 4225
+Wire Wire Line
+	7450 4400 8375 4400
+Wire Wire Line
+	3325 4150 3550 4150
+Wire Wire Line
+	2550 4150 2825 4150
+Wire Wire Line
+	2825 4150 3125 4150
+Wire Wire Line
+	2825 3550 3025 3550
+Wire Wire Line
+	3025 3550 3250 3550
+Wire Wire Line
+	8725 5125 8725 5225
+Wire Wire Line
+	9500 5125 9575 5125
+Wire Wire Line
+	8850 2650 8850 2775
+Wire Wire Line
+	9125 2650 8850 2650
+Wire Wire Line
+	9575 2650 9600 2650
+Wire Wire Line
+	4775 4275 4575 4275
+Wire Wire Line
+	4575 4275 4500 4275
+Wire Wire Line
+	4575 3925 4575 3900
+Wire Wire Line
+	4775 3925 4775 3900
+Wire Wire Line
+	4975 3925 4975 3950
+Wire Wire Line
+	4975 4275 4775 4275
+Wire Wire Line
+	4775 3600 4975 3600
+Wire Wire Line
+	4575 3600 4775 3600
+Wire Wire Line
+	9475 2250 9600 2250
+$Comp
+L 2020-01-15_14-56-43:HMC346ALC3B U4
+U 1 1 5E218E47
+P 3450 5750
+F 0 "U4" H 4750 6137 60  0000 C CNN
+F 1 "HMC346ALC3B" H 4750 6031 60  0000 C CNN
+F 2 "footprints:HMC346ALC3B" H 4750 5990 60  0001 C CNN
+F 3 "" H 3450 5750 60  0000 C CNN
+	1    3450 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 2250
+Wire Wire Line
+	8350 2350 8500 2350
+Wire Wire Line
+	8350 1750 8350 2350
+Connection ~ 8875 5125
+$Comp
+L power:GNDA #PWR022
+U 1 1 5E264BD7
+P 6500 6400
+F 0 "#PWR022" H 6500 6150 50  0001 C CNN
+F 1 "GNDA" H 6505 6227 50  0000 C CNN
+F 2 "" H 6500 6400 50  0001 C CNN
+F 3 "" H 6500 6400 50  0001 C CNN
+	1    6500 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 6050 6500 6050
+Wire Wire Line
+	6500 6050 6500 6150
+Wire Wire Line
+	2525 4150 2550 4150
+Wire Wire Line
+	2300 4150 2550 4150
+Wire Wire Line
+	6050 6150 6500 6150
+Connection ~ 6500 6150
+Wire Wire Line
+	6500 6150 6500 6250
+Wire Wire Line
+	6050 6250 6500 6250
+Connection ~ 6500 6250
+Wire Wire Line
+	6050 6350 6300 6350
+Wire Wire Line
+	6500 6250 6500 6350
+Connection ~ 6500 6350
+Wire Wire Line
+	6500 6350 6500 6400
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5E1FD78D
+P 1200 5650
+F 0 "J2" H 1300 5625 50  0000 L CNN
+F 1 "Conn_Coaxial" H 1300 5534 50  0000 L CNN
+F 2 "footprints:SMA_Amphenol_132289_EdgeMount" H 1200 5650 50  0001 C CNN
+F 3 " ~" H 1200 5650 50  0001 C CNN
+	1    1200 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5E207CF6
+P 1200 6200
+F 0 "J3" H 1300 6175 50  0000 L CNN
+F 1 "Conn_Coaxial" H 1300 6084 50  0000 L CNN
+F 2 "footprints:SMA_Amphenol_132289_EdgeMount" H 1200 6200 50  0001 C CNN
+F 3 " ~" H 1200 6200 50  0001 C CNN
+	1    1200 6200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR021
+U 1 1 5E21AD53
+P 1200 5900
+F 0 "#PWR021" H 1200 5650 50  0001 C CNN
+F 1 "GNDA" H 1205 5727 50  0000 C CNN
+F 2 "" H 1200 5900 50  0001 C CNN
+F 3 "" H 1200 5900 50  0001 C CNN
+	1    1200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR023
+U 1 1 5E21B493
+P 1200 6450
+F 0 "#PWR023" H 1200 6200 50  0001 C CNN
+F 1 "GNDA" H 1205 6277 50  0000 C CNN
+F 2 "" H 1200 6450 50  0001 C CNN
+F 3 "" H 1200 6450 50  0001 C CNN
+	1    1200 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6400 1200 6450
+Wire Wire Line
+	1200 5850 1200 5900
+Wire Wire Line
+	3150 5950 3450 5950
+Wire Wire Line
+	3450 6050 3150 6050
+Text GLabel 9950 4500 2    60   Output ~ 0
+V1
+Wire Wire Line
+	9950 4500 9700 4500
+Connection ~ 9700 4500
+Text GLabel 10100 2250 2    60   Output ~ 0
+V2
+Wire Wire Line
+	9600 2250 9825 2250
+Connection ~ 9825 2250
+Wire Wire Line
+	9825 2250 10100 2250
+Text GLabel 6400 5750 2    60   Input ~ 0
+V1
+Text GLabel 6400 5850 2    60   Input ~ 0
+V2
+Wire Wire Line
+	6400 5750 6050 5750
+Wire Wire Line
+	6050 5850 6400 5850
+Wire Wire Line
+	6050 6450 6300 6450
+Wire Wire Line
+	6300 6450 6300 6350
+Connection ~ 6300 6350
+Wire Wire Line
+	6300 6350 6500 6350
+$Comp
+L power:GNDA #PWR024
+U 1 1 5E267F51
+P 3250 6550
+F 0 "#PWR024" H 3250 6300 50  0001 C CNN
+F 1 "GNDA" H 3255 6377 50  0000 C CNN
+F 2 "" H 3250 6550 50  0001 C CNN
+F 3 "" H 3250 6550 50  0001 C CNN
+	1    3250 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 6550 3250 6450
+Wire Wire Line
+	3250 6450 3450 6450
+Wire Wire Line
+	3450 6350 3250 6350
+Wire Wire Line
+	3250 6350 3250 6450
+Connection ~ 3250 6450
+Wire Wire Line
+	3450 6250 3250 6250
+Wire Wire Line
+	3250 6250 3250 6350
+Connection ~ 3250 6350
+$Comp
+L 2020-01-15_14-56-43:Taper uT1
+U 1 1 5E2A6597
+P 2000 5650
+F 0 "uT1" H 2025 5937 60  0000 C CNN
+F 1 "Taper" H 2025 5831 60  0000 C CNN
+F 2 "digikey-footprints:uwT1.00_1.50_0.30_0.30_1.50" H 1950 5650 60  0001 C CNN
+F 3 "" H 1950 5650 60  0001 C CNN
+	1    2000 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2020-01-15_14-56-43:Taper uT2
+U 1 1 5E2A6B43
+P 2000 6200
+F 0 "uT2" H 2025 6487 60  0000 C CNN
+F 1 "Taper" H 2025 6381 60  0000 C CNN
+F 2 "digikey-footprints:uwT1.00_1.50_0.30_0.30_1.50" H 1950 6200 60  0001 C CNN
+F 3 "" H 1950 6200 60  0001 C CNN
+	1    2000 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5650 1650 5650
+Wire Wire Line
+	1650 6200 1400 6200
+Wire Wire Line
+	2400 6200 3150 6200
+Wire Wire Line
+	3150 6050 3150 6200
+Wire Wire Line
+	2400 5650 3150 5650
+Wire Wire Line
+	3150 5650 3150 5950
+$EndSCHEMATC

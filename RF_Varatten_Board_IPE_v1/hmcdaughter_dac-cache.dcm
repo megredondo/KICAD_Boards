@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5697R_TSSOP
+D AD5697R Dual 12Bit I2C DAC inluding internal reference, TSSOP-16
+K dac i2c 12 bit 
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5697R.pdf
+$ENDCMP
+#
+$CMP ADA4896
+D Dual Op amp (low power)
+K ampliop
+F analog-dev/op275.pdf
+$ENDCMP
+#
+$CMP LTC1983
+D LTC1983 100mA Regulated Charge-Pump TSOT-23
+K Charge Pump Inverter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1983fc.pdf
+$ENDCMP
+#
+#End Doc Library

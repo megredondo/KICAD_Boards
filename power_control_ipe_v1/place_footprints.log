@@ -1,0 +1,5 @@
+11-26 11:28:54 place_footprints.action_place_footprints 408:Place footprints plugin version: 33 started
+11-26 11:28:55 place_footprints.place_footprints 187:getting project hierarchy from schematics
+11-26 11:28:55 place_footprints.place_footprints 196:getting a list of all footprints on board
+11-26 11:28:56 place_footprints.place_footprints 222:construcing a list of sheets suitable for replication on level:'DC-DC Converters', file:'file5E1812C1.sch'
+11-26 11:28:56 place_footprints.place_footprints 255:suitable sheets are:[]

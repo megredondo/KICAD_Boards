@@ -1,0 +1,31 @@
+11-26 11:31:39 replicate_layout.action_replicate_layout 295:Replicate layout plugin version: 46 started
+11-26 11:31:39 replicate_layout.action_replicate_layout 327:Preparing replicator with U9 as a reference
+11-26 11:31:39 replicate_layout.replicatelayout 201:getting project hierarchy from schematics
+11-26 11:31:39 replicate_layout.replicatelayout 203:Project hierarchy looks like:
+{'5E25670D': ['DAC', '/home/manuel/Documents/Kicad/Projects/power_control_ipe_v1/file5E25670C.sch'], '5E256744': ['OP Amps', '/home/manuel/Documents/Kicad/Projects/power_control_ipe_v1/file5E256743.sch'], '5E2566E0': ['LDO Regulators', '/home/manuel/Documents/Kicad/Projects/power_control_ipe_v1/file5E2566DF.sch'], '5E1812C2': ['DC-DC Converters', '/home/manuel/Documents/Kicad/Projects/power_control_ipe_v1/file5E1812C1.sch']}
+11-26 11:31:39 replicate_layout.replicatelayout 211:getting a list of all footprints on board
+11-26 11:31:39 replicate_layout.action_replicate_layout 353:Pivot footprint is 'U9'
+Located on:['DC-DC Converters']
+With filenames:['file5E1812C1.sch']
+With sheet_id:['DC-DC Converters']
+11-26 11:31:39 replicate_layout.action_replicate_layout 357:Corresponding footprints are 
+[('U9', ['DC-DC Converters'])]
+11-26 11:31:39 replicate_layout.action_replicate_layout 370:Showing dialog
+11-26 11:31:39 replicate_layout.action_replicate_layout 374:Pcbnew position: wx.Point(1366, 0)
+11-26 11:31:39 replicate_layout.action_replicate_layout 380:Display 0: wx.Rect(0, 0, 1366, 768)
+11-26 11:31:39 replicate_layout.action_replicate_layout 380:Display 1: wx.Rect(1366, 0, 1920, 1080)
+11-26 11:31:39 replicate_layout.action_replicate_layout 384:Toolbar position: wx.Point(3046, 131)
+11-26 11:31:39 replicate_layout.action_replicate_layout 391:Dialog position: wx.Point(2733, 131)
+11-26 11:31:39 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'DC-DC Converters', file:'file5E1812C1.sch'
+11-26 11:31:39 replicate_layout.replicatelayout 245:Sheet ids up to the level:['DC-DC Converters']
+11-26 11:31:39 replicate_layout.replicatelayout 249:Footprints on the sheets:
+['U9']
+11-26 11:31:39 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
+['/5E1812C2/5E1DD130']
+11-26 11:31:39 replicate_layout.replicatelayout 268:All sheets to replicate:
+[['DC-DC Converters']]
+11-26 11:31:39 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
+[['DC-DC Converters']]
+11-26 11:31:39 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
+[]
+11-26 11:31:55 replicate_layout.action_replicate_layout 241:User canceled the dialog

@@ -1,0 +1,10 @@
+Qty,partname,description,lib
+0,"AD5697R_TSSOP","AD5697R Dual 12Bit I2C DAC inluding internal reference, TSSOP-16","hmcdaughter_dac-cache"
+0,"ADA4896","Dual Op amp (low power)","hmcdaughter_dac-cache"
+0,"C","Unpolarized capacitor","device"
+0,"CONN_01X04_MALE","Generic Male Connector, single row, 01x04, pin header","conn"
+0,"L","Inductor","device"
+0,"LED","LED generic","device"
+0,"LTC1983","LTC1983 100mA Regulated Charge-Pump TSOT-23","hmcdaughter_dac-cache"
+0,"R","Resistor","device"
+0,"TEST","Testpoint, connection for test equipment","device"

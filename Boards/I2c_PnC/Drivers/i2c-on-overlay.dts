@@ -1,0 +1,43 @@
+// Enable the i2s interface
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2708";
+
+    // aliases {
+    //     tx0-hmc-att = &Modulation_Attenuator;
+    //     tx0-hf-att = &TX0_HF_Attenuator;
+    //     tx0-i-att = &TX0_I_Attenuator;
+    //     tx0-q-att = &TX0_Q_Attenuator;
+    //     tx1-hmc-att = &Readout_Attenuator;
+    //     tx1-hf-att = &TX1_HF_Attenuator;
+    //     tx1-i-att = &TX1_I_Attenuator;
+    //     tx1-q-att = &TX1_Q_Attenuator;
+    //     rx-q-vargain = &RX_Q_Vargainamp;
+    //     rx-i-vargain = &RX_I_Vargainamp;
+    // };
+
+    fragment@00 {
+        target = <&i2c1>;
+        __overlay__ {
+            status = "okay";  
+		  ad5675r@0c { // Octal DAC
+		      compatible = "ad5675r"; // device type
+		      reg = <0xc>; // address of DAC 0001100
+		  };
+
+		  Modulation_Attenuator: ad5696r@0c { // One dac for RF attenuator 1
+		      compatible = "ad5696r";
+		      reg = <0xe>;  //we must change this address 0xe
+
+		  };
+
+		  Readout_Attenuator: ad5696r@0d { // second dac for RF attenuator 2
+		      compatible = "ad5696r";
+		      reg = <0xd>;
+		  };
+            };
+        };
+    };
+

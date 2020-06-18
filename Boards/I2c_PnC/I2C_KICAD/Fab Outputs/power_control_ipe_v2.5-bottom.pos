@@ -1,0 +1,40 @@
+### Module positions - created on sáb 30 nov 2019 19:17:29 CET ###
+### Printed by Pcbnew version kicad 5.1.5-52549c5~84~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val              Package                  PosX       PosY       Rot  Side
+C14       100n_25V         C_0402_1005Metric   -239.4834  -135.6296   90.0000  bottom
+C15       1u_16V           C_0603_1608Metric   -241.0064  -135.6246  270.0000  bottom
+C16       100n_25V         C_0402_1005Metric   -239.6612  -110.5090   90.0000  bottom
+C17       1u_16V           C_0603_1608Metric   -240.9312  -110.5343  270.0000  bottom
+C18       100n_25V         C_0402_1005Metric   -239.3056  -122.9296   90.0000  bottom
+C19       1u_16V           C_0603_1608Metric   -240.8296  -122.9296  270.0000  bottom
+C40       UCD1H470MCL1GS   UCD1H470MCL1GS      -180.0606  -142.4446   -0.0000  bottom
+C41       TCSCS1D470KDAR   T495D476K020ASE175  -189.6912  -142.4196  180.0000  bottom
+C42       UCD1H470MCL1GS   UCD1H470MCL1GS      -180.0492  -117.9946   -0.0000  bottom
+C43       22u_25V          C_1206_3216Metric   -189.0242  -146.5340  180.0000  bottom
+C45       TCSCS1D470KDAR   T495D476K020ASE175  -189.5242  -117.9000  180.0000  bottom
+C46       47u_25V          C_1206_3216Metric   -189.1000  -121.8000  180.0000  bottom
+C50       UCD1H470MCL1GS   UCD1H470MCL1GS      -180.2198  -130.2512   -0.0000  bottom
+C51       UCD1H470MCL1GS   UCD1H470MCL1GS      -180.0606  -155.2622   -0.0000  bottom
+C52       TCSCS1D470KDAR   T495D476K020ASE175  -189.6912  -130.2320  180.0000  bottom
+C53       TCSCS1D470KDAR   T495D476K020ASE175  -189.6912  -155.2160  180.0000  bottom
+C54       22u_25V          C_1206_3216Metric   -189.1242  -134.1696  180.0000  bottom
+C56       22u_25V          C_1206_3216Metric   -189.1538  -159.0260  180.0000  bottom
+D1        DDZ9681-7        DDZ9681-7           -166.8000  -138.1000  180.0000  bottom
+FB5       Ferrite_Bead_3A  L_1812_4532Metric   -229.5242  -149.7696  180.0000  bottom
+FB6       Ferrite_Bead_3A  L_1812_4532Metric   -197.8242  -134.0696  180.0000  bottom
+FB9       Ferrite_Bead_2A  L_0603_1608Metric   -243.5474  -135.6296  270.0000  bottom
+FB10      Ferrite_Bead_2A  L_0603_1608Metric   -243.4204  -111.3218  180.0000  bottom
+FB11      Ferrite_Bead_2A  L_0603_1608Metric   -243.3696  -122.9296  270.0000  bottom
+Q1        BSS138           SOT-23-3            -166.0500  -135.0500   90.0000  bottom
+R1        2K_1%            R_0402_1005Metric   -197.6742  -137.1396  180.0000  bottom
+R2        100              R_0805_2012Metric   -197.6617  -131.0696  180.0000  bottom
+R3        DNP              C_0402_1005Metric   -224.1242  -105.7696   -0.0000  bottom
+R4        DNP              C_0402_1005Metric   -220.7742  -110.3696  180.0000  bottom
+R31       100K_1%          R_0603_1608Metric   -169.0000  -135.3125  270.0000  bottom
+R34       100K_1%          R_0402_1005Metric   -169.0000  -132.7000   90.0000  bottom
+R39       7.5K_1%          R_0603_1608Metric   -165.9000  -132.2000  180.0000  bottom
+R49       3.3K_1%          R_0603_1608Metric   -165.9858  -146.9023  180.0000  bottom
+R50       3.3K_1%          R_0603_1608Metric   -165.9604  -148.5787  180.0000  bottom
+## End
